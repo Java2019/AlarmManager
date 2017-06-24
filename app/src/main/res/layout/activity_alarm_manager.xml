@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        tools:context="com.samples.alarm.alarmmanager.AlarmManagerActivity"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+    <Button
+            android:id="@+id/bStart"
+            android:text="Start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"/>
+    <Button
+            android:id="@+id/bCancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:onClick="onClick"/>
+    <Button
+            android:id="@+id/bStop"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Stop"
+            android:onClick="onClick"/>
+</LinearLayout>
