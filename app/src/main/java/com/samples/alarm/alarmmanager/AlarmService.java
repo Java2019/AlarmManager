@@ -34,7 +34,7 @@ public class AlarmService extends Service {
     public void onStart(Intent intent, int startId) {
         super.onStart(intent, startId);
         count++;
-        Toast.makeText(this, "Notify drom alarm service #" + count, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Notify from alarm service #" + count, Toast.LENGTH_SHORT).show();
     }
 
     @Override

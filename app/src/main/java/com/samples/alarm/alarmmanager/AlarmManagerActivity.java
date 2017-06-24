@@ -22,7 +22,7 @@ public class AlarmManagerActivity extends Activity
         setContentView(R.layout.activity_alarm_manager);
 
         alarmManager = (AlarmManager)getSystemService(ALARM_SERVICE);
-        intent = new Intent(AlarmManagerActivity.this, AlarmManager.class);
+        intent = new Intent(AlarmManagerActivity.this, AlarmService.class);
     }
 
     @Override
